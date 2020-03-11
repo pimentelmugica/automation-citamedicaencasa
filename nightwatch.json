@@ -9,7 +9,7 @@
     },
     "test_settings":{
        "default":{
-          "launch_url":"https://www.ns.nl/producten/s/enkele-reis",
+          "launch_url":"https://www.ebay.co.uk",
           "selenium_port":9515,
           "selenium_host":"localhost",
           "default_path_prefix":"",
@@ -22,7 +22,8 @@
              "browserName":"chrome",
              "chromeOptions":{
                 "args":[
-                   "--no-sandbox"
+                   "--no-sandbox",
+                   "--headless"
                 ]
              },
              "acceptSslCerts":true
