@@ -2,16 +2,23 @@
 
 # Installation steps
 
-1. Download nodejs, from [this website](https://nodejs.org/en/) and install it. 
-2. Clone this repository -> [this website](https://github.com/pimentelmugica/eBay-Automation) 
-3. Type `npm install` and wait for it to finish
-4. Type `npm run test` to start the example test.
+1. Clone this repository -> [this website](https://github.com/pimentelmugica/eBay-Automation) 
+2. Type `npm install` and wait for it to finish
+3. Type `npm run test` to start the example test.
 
-## Get feature file syntax highlighting in visual studio code
+## Reports
+
+If you don't want to get immediate reports in a new HTML tab, you can deactivate the option on the `html_report.js` file by setting `launchReport` to `false`
+
+## Headless Mode
+
+You can also deactivate the headless mode by removing the `--headless` line on the `nightwatch.json` file.
+
+### Get feature file syntax highlighting in visual studio code
 
 To get gherkin syntax highlighting install the [Cucumber gherkin extension](https://marketplace.visualstudio.com/items?itemName=stevejpurves.cucumber)
 
-# Resources 
+#### Resources 
 
 - [Documentation](http://nightwatchjs.org/api/)
     - [Expects](http://nightwatchjs.org/api/#expect-api) let you define what you expect to see/happen/etc
