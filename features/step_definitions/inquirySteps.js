@@ -15,7 +15,7 @@ defineSupportCode(({Given, When, Then}) => {
             .click('a[href="/register/patient"]')
     });
 
-    Then(/^the inquiry form is displayed$/, () => {
+    Then(/^the inquiry form is shown$/, () => {
         return client
             .waitForElementVisible('header[class="register-form__header"]', 10000)
             .assert.elementPresent('form[action="#"]')

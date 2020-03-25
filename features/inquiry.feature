@@ -5,4 +5,4 @@ Scenario: A patient is able to reach the inquiry
 
   Given a user goes to the home page
   When the user clicks on 'Make a Inquiry' button
-  Then the inquiry form is displayed
+  Then the inquiry form is shown
