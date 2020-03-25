@@ -1,8 +1,8 @@
-        @Inquiry
-Feature: As a patient, I want to make an inquiry
+@Inquiry
+Feature: As a patient, I want to reach the inquiry form
 
-        Scenario: A patient is able to make an inquiry
+Scenario: A patient is able to reach the inquiry
 
-            Given a user goes to the home page
-             When the user clicks on 'Make a Inquiry' button
-             Then the inquiry form is displayed
+  Given a user goes to the home page
+  When the user clicks on 'Make a Inquiry' button
+  Then the inquiry form is displayed
