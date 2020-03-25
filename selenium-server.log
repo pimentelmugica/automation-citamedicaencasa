@@ -1,0 +1,35 @@
+15:33:00.839 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+15:33:00.902 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2020-03-23 15:33:00.950:INFO::main: Logging initialized @292ms to org.seleniumhq.jetty9.util.log.StdErrLog
+15:33:01.151 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+15:33:01.228 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+15:33:01.562 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "chromeOptions": {
+    "w3c": false
+  },
+  "javascriptEnabled": true
+}
+15:33:01.564 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 41060
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+15:33:02.633 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+15:33:02.931 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session faa3862b6745d5e4af9d979feb8fd968 (org.openqa.selenium.chrome.ChromeDriverService)
+[1584973983.286][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584973984.344][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584973984.496][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584973985.728][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584973985.830][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584973987.478][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584973987.580][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584973987.681][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584973987.935][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584973988.037][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584973988.140][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584973988.323][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584973988.424][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584973988.526][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584973988.920][SEVERE]: Timed out receiving message from renderer: 0.100
+15:33:26.931 INFO [ActiveSessions$1.onStop] - Removing session faa3862b6745d5e4af9d979feb8fd968 (org.openqa.selenium.chrome.ChromeDriverService)

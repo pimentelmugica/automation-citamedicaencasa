@@ -9,7 +9,7 @@
     },
     "test_settings":{
        "default":{
-          "launch_url":"https://www.ebay.co.uk",
+          "launch_url":"https:https://dev--musing-shaw-70225c.netlify.com",
           "selenium_port":9515,
           "selenium_host":"localhost",
           "default_path_prefix":"",
@@ -22,8 +22,7 @@
              "browserName":"chrome",
              "chromeOptions":{
                 "args":[
-                   "--no-sandbox",
-                   "--headless"
+                   "--no-sandbox"
                 ]
              },
              "acceptSslCerts":true

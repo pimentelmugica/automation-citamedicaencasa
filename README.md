@@ -1,8 +1,8 @@
-# eBay Automation with Nightwatch.js
+# e2e Automation for @CitaMedicaCasa
 
 # Installation steps
 
-1. Clone this repository -> [this website](https://github.com/pimentelmugica/eBay-Automation) 
+1. Clone this repository -> [this website](https://github.com/pimentelmugica/automation-citamedicacasa) 
 2. Type `npm install` and wait for it to finish
 3. Type `npm run test` to start the example test.
 
