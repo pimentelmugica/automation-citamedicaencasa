@@ -1,6 +1,7 @@
 /.idea
 /.settings
 /.vscode
+/.log
 /node_modules
 /screenshots
 /reports
