@@ -1,12 +1,12 @@
 {
-  "name": "nightwatch-demo",
+  "name": "citamedicaencasa-automation",
   "version": "1.0.0",
-  "description": "testing out nightwatch",
+  "description": "testing out citamedicaencasa.es with nightwatch.js",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/nightwatch"
   },
-  "author": "Modus Create",
+  "author": "@pimentelmugica",
   "license": "ISC",
   "devDependencies": {
     "chromedriver": "^2.38.2",
