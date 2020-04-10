@@ -8,7 +8,7 @@ require('nightwatch-cucumber')({
 });
 
 module.exports = {
-  output_folder: '',
+  output_folder: '', 
   custom_assertions_path: '',
   live_output: false,
   disable_colors: false,
@@ -25,9 +25,10 @@ module.exports = {
         browserName: 'chrome',
         javascriptEnabled: true,
         acceptSslCerts: true,
-        args:[
-          "--no-sandbox, --headless"
-       ]
+        chromeOptions: {
+          args:["--no-sandbox, disable-gpu, --headless"],
+          w3c: false
+        }
       }
     },
   }

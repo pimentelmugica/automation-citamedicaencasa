@@ -4,7 +4,11 @@
 
 1. Clone this repository -> [this website](https://github.com/pimentelmugica/automation-citamedicacasa) 
 2. Type `npm install` and wait for it to finish
-3. Type `npm run test` to start the example test.
+
+# Run Tests
+
+1. To run all the features -> `npm run test`
+2. To run a specific feature -> `npm run test -- Test/features/<my_feature>.feature`
 
 ## Reports
 

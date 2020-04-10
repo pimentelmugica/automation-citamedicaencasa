@@ -3,7 +3,7 @@ const {Given, Then, When} = require('cucumber');
 
 Given(/^a user goes to the home page$/, async () => {
   await client
-    .url('https://dev--musing-shaw-70225c.netlify.com/')
+    .url('https://dev--musing-shaw-70225c.netlify.com')
     .assert.elementPresent('div[id="root"]')
 });
 
